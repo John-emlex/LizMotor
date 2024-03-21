@@ -30,7 +30,7 @@ const Sidebar = () => {
         </a>
         <a href='#' className='item'>
           <BiCog className='icon'/>
-          Manufacturiing
+          Manufacturing
         </a>
         <a href='#' className='item'>
           <BiDollarCircle className='icon'/>
