@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/teacherList.css';
-import image1 from '/Users/mac/Desktop/LizMotor/src/assets/WhatsApp Image 2024-03-20 at 2.24.13 PM.jpeg' 
+import image1 from '/Users/mac/Desktop/LizMotor/src/assets/2BCF3EE1-6322-49CA-8D8C-502ABF349FB6_4_5005_c.jpeg' 
 
 const programmers = [
     {
