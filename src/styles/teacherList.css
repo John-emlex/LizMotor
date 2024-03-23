@@ -16,3 +16,7 @@
   border: 1px solid #dde6ed;
   color: #526d82;
 }
+.list--container {
+  display: flex;
+  padding-right: 10px;
+}
