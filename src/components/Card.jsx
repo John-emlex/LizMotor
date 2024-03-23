@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiLinkExternal } from 'react-icons/bi';
+import { BiLinkExternal, BiShareAlt } from 'react-icons/bi';
 
 const courses = [
     {
@@ -7,7 +7,7 @@ const courses = [
         icon: <BiLinkExternal />
     },{
         title: 'Internal',
-        icon: <BiLinkExternal />
+        icon: <BiShareAlt />
     }
 ]
 

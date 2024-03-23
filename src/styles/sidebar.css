@@ -40,3 +40,24 @@
   background: #27374d;
   color: #dde6ed;
 }
+
+.menu--list .item1:hover {
+  background: blue;
+  color: #dde6ed;
+}
+.menu--list .item2:hover {
+  background: rgb(194, 194, 248);
+  color: #040b10;
+}
+.menu--list .item3:hover {
+  background: rgb(255, 72, 0);
+  color: #04080b;
+}
+.menu--list .item4:hover {
+  background: rgb(230, 16, 98);
+  color: #dde6ed;
+}
+.menu--list .item5:hover {
+  background: rgb(167, 72, 255);
+  color: #0c151b;
+}

@@ -1,0 +1,18 @@
+/* .teacher--list {
+} */
+.list--header {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+
+.list--header h2 {
+  color: #526d82;
+}
+.list--header select {
+  border-radius: 10px;
+  border: none;
+  padding: 8px 12px;
+  border: 1px solid #dde6ed;
+  color: #526d82;
+}

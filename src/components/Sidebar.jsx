@@ -16,24 +16,24 @@ const Sidebar = () => {
           <BiHome className='icon'/>
           Dashboard
         </a>
-        <a href='#' className='item'>
+        <a href='#' className='item item1'>
           <BiSearchAlt className='icon'/>
           Research
         </a>
-        <a href='#' className='item'>
+        <a href='#' className='item item2'>
         <BiCalendarEvent className='icon'/>
           Planning
         </a>
-        <a href='#' className='item'>
-          <BiPalette className='icon'/>
+        <a href='#' className='item item3'>
+          <BiPalette className='icon iron3'/>
           Designing
         </a>
-        <a href='#' className='item'>
-          <BiCog className='icon'/>
+        <a href='#' className='item item4'>
+          <BiCog className='icon icon4'/>
           Manufacturing
         </a>
-        <a href='#' className='item'>
-          <BiDollarCircle className='icon'/>
+        <a href='#' className='item item5'>
+          <BiDollarCircle className='icon icon5'/>
           Sales/Marketing
         </a>
       </div>

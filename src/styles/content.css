@@ -73,7 +73,7 @@
   padding: 20px;
   border-radius: 10px;
   display: flex;
-  align-items: center;3
+  align-items: center;
   flex-direction: row;
   gap: 20px;
   transition: 0.5s ease-in-out;
@@ -83,4 +83,21 @@
   cursor: pointer;
 }
 .card--cover {
+  background: #fff;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  color: #969393;
+}
+.card--title {
+  background: #ffffffc0;
+  width: 100px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #526d82;
+  border-radius: 10px;
 }
