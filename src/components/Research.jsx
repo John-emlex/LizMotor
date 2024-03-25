@@ -26,33 +26,31 @@ const Research = () => {
   ];
   return (
     <div className="card--container">
-      {courses.map((item) => (
-        <div className="card">
-          <div className="card--cover">
-            <BiLinkExternal />
-          </div>
-          <div className="card--title tooltip ">
-            External
-            <Link to="" />
-            <a href="">
-              {" "}
-              <img className="tooltiptext" src={image1} alt="chart" />{" "}
-            </a>
-          </div>
-
-          <div className="card--cover">
-            <BiLinkAlt />
-          </div>
-          <div className="card--title tooltip ">
-            {item.title}
-            <Link to="" />
-            <a href="">
-              {" "}
-              <img className="tooltiptext" src={image1} alt="chart" />{" "}
-            </a>
-          </div>
+      <div className="card">
+        <div className="card--cover">
+          <BiLinkExternal />
         </div>
-      ))}
+        <div className="card--title tooltip ">
+          External
+          <Link to="src/components/TeacherList.jsx" />
+          <a href="">
+            {" "}
+            <img className="tooltiptext" src={image1} alt="chart" />{" "}
+          </a>
+        </div>
+      </div>
+      <div className="card">
+        <div className="card--cover">
+          <BiLinkAlt />
+        </div>
+        <div className="card--title tooltip ">
+          Internal
+          <a href="">
+            {" "}
+            <img className="tooltiptext" src={image1} alt="chart" />{" "}
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
