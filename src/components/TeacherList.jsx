@@ -5,7 +5,15 @@ import image1 from '/Users/mac/Desktop/LizMotor/src/assets/2BCF3EE1-6322-49CA-8D
 const programmers = [
     {
         image: image1,
-        name: 'John C Peter'
+        name: 'John C Peter',
+        duration: "40hr per week",
+        cost: 100
+    },
+     {
+        image: image1,
+        name: 'John C Peter',
+        duration: "40hr per week",
+        cost: 100
     }
 ]
 
@@ -13,7 +21,7 @@ const TeacherList = () => {
   return (
     <div className='teacher--list'>
         <div className='list--header'>
-            <h2>Teachers</h2>
+            <h2>Management Team</h2>
             <select>
                 <option value='english'>English</option>
                 <option value='hindi'>Hindi</option>
@@ -26,6 +34,9 @@ const TeacherList = () => {
                         <img src={programmer.image} alt={programmer.name}/>
                         <h2>{programmer.name}</h2>
                     </div>
+                    <span>{programmer.duration}</span>
+                    <span> ${programmer.cost}/hr </span>
+                    <span className='teacher--todo'></span>
                 </div>
             ))}
         </div>

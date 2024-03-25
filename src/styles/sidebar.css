@@ -1,3 +1,34 @@
+.dashboard {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboard--content {
+  background-color: #fff;
+  flex: 1;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard--content {
+    display: flex;
+    flex-direction: row;
+    width: 79%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+  }
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -36,9 +67,10 @@
   color: #27374d;
 }
 
-.menu--list .item:hover {
+.menu--list .item:hover,
+.active {
   background: #27374d;
-  color: #dde6ed;
+  color: #dde6ed !important;
 }
 
 .menu--list .item1:hover {
@@ -47,7 +79,8 @@
 }
 .menu--list .item2:hover {
   background: rgb(194, 194, 248);
-  color: #040b10;
+  color: #07131b;
+  text-decoration-color: #04080b;
 }
 .menu--list .item3:hover {
   background: rgb(255, 72, 0);
